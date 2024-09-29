@@ -1,6 +1,6 @@
 $(function() {
   
-    $('.prompt').html('root@3LIIX:~# ');
+    $('.prompt').html('root@GhostWr1t3r:~# ');
 
   var term = new Terminal('#input-line .cmdline', '#container output');
   term.init();
@@ -107,46 +107,11 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           output_.innerHTML = '';
           this.value = '';
           return;
-        case 'more':
-          var result = "<h2>more commands</h2><p><b>whoami</b>: display all personal informations.<br><b>education</b>: display all my information about my education.<br><b>proxcs</b>: display all my information about my achievements in programming and security.<br><b>interests</b>: display all my interests.<br><b>love</b>: are you curious about my love?<br><b>community</b>: join our community<br><b>contact</b>: Say hi<br><b>skills</b>: My sckills<br><b>clear</b>: clear terminal<br><b>more</b>: display this menu.<br><b>note</b>: note very important... ";
-          output(result);
-          break;
-        case 'education':
-          var result = "<h3>Education</h3>"+"<p>right now I'focus on my self studying, <br>and also I'm a techno electric student in the first year bacaloreant in the technic hight school IBN sina in kenitra, morocco ...";
-          output(result);
-          break;
-        
-        case 'proxcs':
-          var result = "<h3>Programming</h3><p> I've been an enthusiast of programming my whole life. IMHO, programming is like a game of chess with a machine! I'm interested in web dev, mobile dev, and also desktop dev. I'm looking forward to learning more about being a full-stack developer!<p>"+"<h3> Security </h3> <p>after programming  I'm also interesst in the cyber security specific in the web security all that for creat a beautiful and secure environnement in the web $</p> <h3><br>More projects on my <a href=\"https://github.com/3LIIX\">Github</a></h3>";
-          output(result);
-          break;
-        case 'interests': 
-          var result = "<h3>Interests</h3><p>Algorithms, Data Structures, Problem Solving, Cyber Security , Web devloppement, learnning, AI, Computer science,Internet things, Operating systeme, networking, machine learnning and finnaly GIRLS !!! ..</p>";
-          output(result);
-          break;
-        case 'skills':
-          var result = "<h1>Frontend Developer</h1> <p>- HTML (Advance)</p><p>- CSS (Advanced)</p><p>- JavaScript (Intermediate)</p><p>- React (Intermediate)</p><p>- Git (Intermediate)</p><p>- Bootstrap (Intermediate)</p><h1>Back end Developer</h1> <p>- PHP</p><p>- Python</p><p>- Node js</p> <h1>Microsoft Office</h1> <p>- Word 2016 (Advance)</p><p>- PowerPoint 2016 (Advance)</p><p>- Excel 2016 (Intermediate)</p> <h1>CyberSecurity</h1> <p>- Networking (basic)</p><p>- Linux (Advance)</p><p>- Python data analyste (Advance)</p>";
-          output(result);
-          break;
-        case 'contact':
-          var result = "<h3>Contact</h3><h4>Email: alircham1@gmail.com<br>facebook: @3LIIX1<br>Instagram: ali.rcham</h4>";
-          output(result);
-          break;
-        case 'whoami':
-          var result = "<h1>Ali Rcham</h1><p>Web developper, computer science student, and Security Researcher</p><p>I am 16 years old. I am from morocco. I am a student at IBN SINA hight school in kenitra, Morocco, science techno electric (STE). I've been an enthusiast of programming my whole life. IMHO, programming is like a game of chess with a machine! I'm interested in web dev, mobile dev, and also desktop dev. I'm looking forward to learning more about being a full-stack developer! 😃 You can find me on GitHub and LinkedIn. I'm also a freelancer and a student of IBN SINA hight school. You will download my CV by clicking the button <a href=\"https://rcham.net/assets/RCHAM.pdf/\">DOWNLOAD CV</a></h3></h1> </p> <h3>Interests</h3><p>Algorithms, Data Structures, Problem Solving, Cyber Security , Web devloppement, learnning, AI, Computer science,Internet things, Operating systeme, networking, machine learnning and finnaly GIRLS !!! ..</p>"
-          output(result);
-          break;
-        case 'community':
+        case 'Help':
           var result = "<h3>My Community</h3><h4><a href=\"https://www.facebook.com/groups/325188112860480\">Facebook Community</a> <br> <a href=\"https://www.facebook.com/gitcode\">Facebook page</a> <b><br><a href=\"https://t.me/+bfNkV1E1DyFlNjU0\">Telegram channel</a> <br> <a href=\"https://discord.gg/5XrsR7fy\">Discord server</a> </h4>";
           output(result);
           break;
-        case 'love':
-          output("<h3>404...<br>WE BREAK CODES NOT HEARTS</h3>");
-          break;
-        
-        case 'note':
-            output("<h3>if you don't like me but you still watching everything of what I do that's mean you are a fan </h3>");
-            break;
+          
         default:
           if (cmd) {
             output(cmd + ': command not found');
