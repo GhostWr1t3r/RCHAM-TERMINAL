@@ -122,7 +122,9 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
             <li><b>Medium</b>: <a href="https://medium.com" target="_blank">https://medium.com/GhostWr1t3r</a></li>
         </ul>`;
     output(result);
-
+         break;
+          case 'love':
+          output("<h3>404...NOT FOUND</h3>");
           break;
         default:
           if (cmd) {
