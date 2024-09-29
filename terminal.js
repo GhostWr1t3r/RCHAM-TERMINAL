@@ -1,6 +1,6 @@
 $(function() {
   
-    $('.prompt').html('root@GhostWr1t3r:~# ');
+    $('.prompt').html('root@3LIIX:~# ');
 
   var term = new Terminal('#input-line .cmdline', '#container output');
   term.init();
@@ -20,7 +20,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
   var output_ = document.querySelector(outputContainer);
 
   const CMDS_ = [
-    'help', 'education', 'security', 'programming', 'interests', 'love', 'media' ,'contact', 'blog', 'clear', 'help' 
+    'clear', 'help' 
   ];
   
   var fs_ = null;
@@ -107,11 +107,10 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           output_.innerHTML = '';
           this.value = '';
           return;
-        case 'Help':
-          var result = "<h3>My Community</h3><h4><a href=\"https://www.facebook.com/groups/325188112860480\">Facebook Community</a> <br> <a href=\"https://www.facebook.com/gitcode\">Facebook page</a> <b><br><a href=\"https://t.me/+bfNkV1E1DyFlNjU0\">Telegram channel</a> <br> <a href=\"https://discord.gg/5XrsR7fy\">Discord server</a> </h4>";
+        case 'more':
+          var result = "<h2>more commands</h2><p><b>whoami</b>: display all personal informations.<br><b>education</b>: display all my information about my education.<br><b>proxcs</b>: display all my information about my achievements in programming and security.<br><b>interests</b>: display all my interests.<br><b>love</b>: are you curious about my love?<br><b>community</b>: join our community<br><b>contact</b>: Say hi<br><b>skills</b>: My sckills<br><b>clear</b>: clear terminal<br><b>more</b>: display this menu.<br><b>note</b>: note very important... ";
           output(result);
           break;
-          
         default:
           if (cmd) {
             output(cmd + ': command not found');
@@ -165,50 +164,3 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
     output: output
   }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-- 3LIIX --*/
