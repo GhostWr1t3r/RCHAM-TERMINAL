@@ -119,7 +119,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
             <li><b>Discord</b>: GhostWr1t3r</li>
             <li><b>NET3LIX</b>: <a href="https://net3lix.com" target="_blank">https://net3lix.com</a></li>
             <li><b>Discord server</b>: <a href="https://discord.gg/bstJfQT3AZ" target="_blank">https://discord.gg/bstJfQT3AZ</a></li>
-            <li><b>Medium</b>: <a href="https://medium.com" target="_blank">https://medium.com</a></li>
+            <li><b>Medium</b>: <a href="https://medium.com" target="_blank">https://medium.com/GhostWr1t3r</a></li>
         </ul>`;
     output(result);
 
