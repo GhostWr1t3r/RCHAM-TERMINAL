@@ -7,6 +7,7 @@
   --link-color: #3ed400;
   --selection-color: #264f78;
   --font-size: 14px;
+  --link-font-size: 13px;  /* New variable for link size */
   --line-height: 1.6;
   --input-bg-color: rgba(255, 255, 255, 0.05);
 }
@@ -90,6 +91,7 @@ a {
   color: var(--link-color);
   text-decoration: none;
   position: relative;
+  font-size: var(--link-font-size);  /* Smaller font size for links */
 }
 
 a:hover {
