@@ -1,6 +1,6 @@
 $(function() {
   
-    $('.prompt').html('root@3LIIX:~# ');
+    $('.prompt').html('root@GhostWr1t3r:~# ');
 
   var term = new Terminal('#input-line .cmdline', '#container output');
   term.init();
@@ -159,7 +159,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
   //
   return {
     init: function() {
-      output('<h1>Ali Rcham</h1><h3>Web developper, Writter, and Security Researcher<br>I regulary share my projects in my second portfolio : <a href=\"https://rcham.net/\">rcham.net</a></h3><p>Enter "more" for more information.</p><p> -- love <3</p>');
+      output('<h1>Ali Rcham (GhostWr1t3r)</h1><h3>Software developper, Writter, and Security Researcher<br>I regulary share my projects in my github : <a href=\"https://github.com/GhostWr1t3r/\">GITHUB/GHOSTWR1T3R</a></h3><p>Enter "help" for more information.</p><p> -- love <3</p>');
     },
     output: output
   }
