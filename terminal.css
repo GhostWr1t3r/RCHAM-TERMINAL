@@ -101,7 +101,6 @@ a:hover {
 a::before {
   content: '>';
   position: absolute;
-  left: -3em;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
 }
