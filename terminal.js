@@ -108,8 +108,21 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           this.value = '';
           return;
         case 'help':
-          var result = "<h2>more commands</h2><p><b>whoami</b>: display all personal informations.<br><b>education</b>: display all my information about my education.<br><b>proxcs</b>: display all my information about my achievements in programming and security.<br><b>interests</b>: display all my interests.<br><b>love</b>: are you curious about my love?<br><b>community</b>: join our community<br><b>contact</b>: Say hi<br><b>skills</b>: My sckills<br><b>clear</b>: clear terminal<br><b>more</b>: display this menu.<br><b>note</b>: note very important... ";
-          output(result);
+    var result = `
+        <h2>Top 1% of the Top 1%</h2>
+        <p>The one who can change the world without the permission of the god</p>
+        <ul>
+            <li><b>Facebook</b>: <a href="https://facebook.com" target="_blank">https://facebook.com</a></li>
+            <li><b>Instagram</b>: <a href="https://facebook.com/ali.rcham" target="_blank">https://facebook.com/ali.rcham</a></li>
+            <li><b>Github</b>: <a href="https://github.com/GhostWr1t3r" target="_blank">https://github.com/GhostWr1t3r</a></li>
+            <li><b>LinkedIn</b>: <a href="https://LinkedIn.com/in/GhostWr1t3r" target="_blank">https://LinkedIn.com/in/GhostWr1t3r</a></li>
+            <li><b>Discord</b>: GhostWr1t3r</li>
+            <li><b>NET3LIX</b>: <a href="https://net3lix.com" target="_blank">https://net3lix.com</a></li>
+            <li><b>Discord server</b>: <a href="https://discord.gg" target="_blank">https://discord.gg</a></li>
+            <li><b>Medium</b>: <a href="https://medium.com" target="_blank">https://medium.com</a></li>
+        </ul>`;
+    output(result);
+
           break;
         default:
           if (cmd) {
