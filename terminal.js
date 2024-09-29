@@ -172,7 +172,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
   //
   return {
     init: function() {
-      output('<h1>Ali Rcham (GhostWr1t3r)</h1><h3>Software developper, Writter, and Security Researcher<br>I regulary share my projects in my github : <a href=\"https://github.com/GhostWr1t3r/\">GITHUB/GHOSTWR1T3R</a></h3><p>Enter "help" for more information.</p><p> -- love <3</p>');
+      output('<h1>Ali Rcham (GhostWr1t3r)</h1><h3>Software developper, Writter, and Security Researcher<br>Making things by day and hacking things by night<br>I regulary share my projects in my github : <br> <a href=\"https://github.com/GhostWr1t3r/\">GITHUB/GHOSTWR1T3R</a></h3><p>Enter "help" for more information.</p><p> -- love <3</p>');
     },
     output: output
   }
