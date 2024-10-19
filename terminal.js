@@ -112,12 +112,12 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
         <h2>Top 1% of the Top 1%</h2>
         <p>The one who can change the world without the permission of the god</p>
         <ul>
-            <li><b>Facebook</b>: <a href="https://facebook.com/GhostWrit3r" target="_blank">https://facebook.com/GhostWr1t3r</a></li>
+            <li><b>Facebook</b>: <a href="https://facebook.com/GhostWrit3r" target="_blank">https://facebook.com/GhostWrit3r</a></li>
             <li><b>Instagram</b>: <a href="https://instagram.com/ali.rcham" target="_blank">https://instagram.com/ali.rcham</a></li>
             <li><b>Github</b>: <a href="https://github.com/GhostWr1t3r" target="_blank">https://github.com/GhostWr1t3r</a></li>
             <li><b>LinkedIn</b>: <a href="https://LinkedIn.com/in/GhostWr1t3r" target="_blank">https://LinkedIn.com/in/GhostWr1t3r</a></li>
             <li><b>Discord</b>: GhostWr1t3r</li>
-            <li><b>NET3LIX</b>: <a href="https://net3lix.com" target="_blank">https://net3lix.com</a></li>
+            <li><b>NET3LIX</b>: <a href="https://net3lix.world" target="_blank">https://net3lix.world</a></li>
             <li><b>Discord server</b>: <a href="https://discord.gg/bstJfQT3AZ" target="_blank">https://discord.gg/bstJfQT3AZ</a></li>
             <li><b>Medium</b>: <a href="https://medium.com" target="_blank">https://medium.com/GhostWr1t3r</a></li>
         </ul>`;
